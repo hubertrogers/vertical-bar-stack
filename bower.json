@@ -1,0 +1,24 @@
+{
+  "name": "verticalbarstack-2",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "d3": "~3.5.6",
+    "d3-tip": "~0.6.7",
+    "queue": "1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "dist/fonts/*"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5"
+  }
+}
